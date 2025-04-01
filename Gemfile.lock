@@ -1,3 +1,10 @@
+PATH
+  remote: minima-reboot
+  specs:
+    minima-reboot (1.0.33)
+      jekyll (>= 3.6, < 5.0)
+      jekyll-seo-tag (~> 2.7)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -326,7 +333,8 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   http_parser.rb (~> 0.6.0)
-  minima (~> 2.5)
+  jekyll-remote-theme
+  minima-reboot!
   tzinfo (>= 1, < 3)
   tzinfo-data
   wdm (~> 0.1)
