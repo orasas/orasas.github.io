@@ -8,7 +8,7 @@ github_username:  orasas
 
 # Build settings
 theme: minima-reboot
-#remote_theme: aterenin/minima-reboot
+remote_theme: aterenin/minima-reboot
 plugins:
   - jekyll-remote-theme
 
